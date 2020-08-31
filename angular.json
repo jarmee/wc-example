@@ -90,9 +90,7 @@
           "builder": "@nrwl/jest:jest",
           "options": {
             "jestConfig": "apps/example/jest.config.js",
-            "tsConfig": "apps/example/tsconfig.spec.json",
-            "passWithNoTests": true,
-            "setupFile": "apps/example/src/test-setup.ts"
+            "passWithNoTests": true
           }
         }
       }
