@@ -1,7 +1,7 @@
 # 🚽 Web Component - Nx Workspace Example
 
 This nx-workspace showcases how you can configure a publishable web-component library. The web component
-was created using `lit-element` and `lit-html` and is already published under `@jarmee/button`.
+was created using `lit-element` and `lit-html` and is already published under [`@jarmee/button`](https://www.npmjs.com/package/@jarmee/button).
 
 ## Get Started
 
