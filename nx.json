@@ -28,6 +28,9 @@
     "example-e2e": {
       "tags": [],
       "implicitDependencies": ["example"]
+    },
+    "shared-ui-button": {
+      "tags": []
     }
   }
 }
