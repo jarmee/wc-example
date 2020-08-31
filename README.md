@@ -1,98 +1,22 @@
-# Wc
+# 🚽 Web Component - Nx Workspace Example
 
-This project was generated using [Nx](https://nx.dev).
+This nx-workspace showcases how you can configure a publishable web-component library. The web component
+was created using `lit-element` and `lit-html` and is already published under `@jarmee/button`.
 
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+## Get Started
 
-🔎 **Nx is a set of Extensible Dev Tools for Monorepos.**
+To get started please follow the instructions below.
 
-## Quick Start & Documentation
+1. Clone this repository to your local machine `git clone https://github.com/jarmee/wc-example.git`
+2. Run `yarn install` in the root folder of this workspace
+3. To test everything run `nx serve` and open `http://localhost:4200` you should now see a purple button 😎
 
-[Nx Documentation](https://nx.dev/angular)
+## Build Library
 
-[10-minute video showing all Nx features](https://nx.dev/angular/getting-started/what-is-nx)
+To build the `@jarmee/button` library run `nx build shared-ui-button`.
 
-[Interactive Tutorial](https://nx.dev/angular/tutorial/01-create-application)
+## Maintainer
 
-## Adding capabilities to your workspace
-
-Nx supports many plugins which add capabilities for developing different types of applications and different tools.
-
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
-
-Below are our core plugins:
-
-- [Angular](https://angular.io)
-  - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
-
-There are also many [community plugins](https://nx.dev/nx-community) you could add.
-
-## Generate an application
-
-Run `ng g @nrwl/angular:app my-app` to generate an application.
-
-> You can use any of the plugins above to generate applications as well.
-
-When using Nx, you can create multiple applications and libraries in the same workspace.
-
-## Generate a library
-
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are sharable across libraries and applications. They can be imported from `@wc/mylib`.
-
-## Development server
-
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
-
-## Build
-
-Run `ng build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test my-app` to execute the unit tests via [Jest](https://jestjs.io).
-
-Run `nx affected:test` to execute the unit tests affected by a change.
-
-## Running end-to-end tests
-
-Run `ng e2e my-app` to execute the end-to-end tests via [Cypress](https://www.cypress.io).
-
-Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
-
-## Understand your workspace
-
-Run `nx dep-graph` to see a diagram of the dependencies of your projects.
-
-## Further help
-
-Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
-
-## ☁ Nx Cloud
-
-### Computation Memoization in the Cloud
-
-<p align="center"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
-
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
-
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
-
-Visit [Nx Cloud](https://nx.app/) to learn more.
+| ![Jari Möllenbernd](https://avatars2.githubusercontent.com/u/974638?u=8c61e7d54df0341c68cca59bd8fd0187154d03c8&v=4&s=100 'Jari Möllenbernd') |
+| :------------------------------------------------------------------------------------------------------------------------------------------: |
+|                                           Jari Möllenbernd ([@jarmee](https://github.com/jarmee))                                            |
