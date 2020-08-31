@@ -1,1 +1,1 @@
-export * from './lib/shared-ui-button';
+export * from './lib/jarmee-button';

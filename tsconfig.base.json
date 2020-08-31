@@ -16,7 +16,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@wc/shared/ui/button": ["libs/shared/ui/button/src/index.ts"]
+      "@jarmee/button": ["libs/shared/ui/button/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

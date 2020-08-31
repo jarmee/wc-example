@@ -1,0 +1,6 @@
+{
+  "name": "@jarmee/button",
+  "version": "1.0.0",
+  "lib": { "entryFile": "src/index.ts" },
+  "dest": "../../dist/@jarmee/button"
+}
